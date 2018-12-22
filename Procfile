@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner-9.0.11.0.jar --port $PORT --proxy-base-url https://nky-equipment.herokuapp.com target/*.war
